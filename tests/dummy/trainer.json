@@ -1,0 +1,12 @@
+{
+  "title": "Dummy Game +3 Trainer",
+  "process": "dummygame.exe",
+  "cheats": [
+    {"name": "Infinite Health", "hotkey": "F1", "type": "freeze",
+     "target": {"aob": "48 50 4D 41 52 4B 21 21", "aob_offset": 8}, "value_type": "int32", "value": 999},
+    {"name": "Add 1000 Gold", "hotkey": "F2", "type": "add",
+     "target": {"aob": "48 50 4D 41 52 4B 21 21", "aob_offset": 12}, "value_type": "int32", "value": 1000},
+    {"name": "Set Health 1", "hotkey": "CTRL+F3", "type": "set",
+     "target": {"aob": "48 50 4D 41 52 4B 21 21", "aob_offset": 8}, "value_type": "int32", "value": 1}
+  ]
+}

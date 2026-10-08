@@ -1,0 +1,25 @@
+# per-game working data: playbooks, logs, screenshots, built trainers, releases
+games/
+app/shots/
+shot_*.png
+scan_state.*
+
+# build output
+**/dist/
+**/build/
+**/__pycache__/
+*.spec
+unity/UniversalTrainer.dll
+unity/vendor/bepinex.zip
+
+# local test helpers (copies of python.exe, captured frames)
+tests/*.exe
+tests/rcg/
+tests/rcg_features.json
+tests/ui.png
+tests/read_lms_log.py
+tests/dummy.log
+
+# editors
+.vscode/
+.idea/
